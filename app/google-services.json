@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "949646475592",
+    "project_id": "jasaphotografer1",
+    "storage_bucket": "jasaphotografer1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949646475592:android:0ee8537757a41f9b4d337d",
+        "android_client_info": {
+          "package_name": "com.rini.jasaphotografer1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949646475592-gss21gmfqc125p8iv3ihbeguv7an4ato.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rini.jasaphotografer1",
+            "certificate_hash": "58d33b6a88e70649bb4a7dd8d7fd23eb6cb15de8"
+          }
+        },
+        {
+          "client_id": "949646475592-b2kda2uckddjbl1995qsa81vacqurbqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChlIjqeMq7Vb4BxcL974xYBI-rBV-v4bc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949646475592-b2kda2uckddjbl1995qsa81vacqurbqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
