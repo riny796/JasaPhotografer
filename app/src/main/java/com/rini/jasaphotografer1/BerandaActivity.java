@@ -25,7 +25,7 @@ public class BerandaActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(),"Anda Menekan Tombol Weeding", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(BerandaActivity.this, WeedingActivity.class);
+                Intent intent = new Intent(BerandaActivity.this, OrderActivity.class);
                 startActivity(intent);
             }
         });
@@ -35,7 +35,7 @@ public class BerandaActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(),"Anda Menekan Tombol Birthday", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(BerandaActivity.this, BirthdayActivity.class);
+                Intent intent = new Intent(BerandaActivity.this, OrderActivity.class);
                 startActivity(intent);
             }
         });
@@ -45,7 +45,7 @@ public class BerandaActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(),"Anda Menekan Tombol Studio", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(BerandaActivity.this, StudioActivity.class);
+                Intent intent = new Intent(BerandaActivity.this, OrderActivity.class);
                 startActivity(intent);
             }
         });
@@ -55,7 +55,7 @@ public class BerandaActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(),"Anda Menekan Tombol Hunting", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(BerandaActivity.this, HuntingActivity.class);
+                Intent intent = new Intent(BerandaActivity.this, OrderActivity.class);
                 startActivity(intent);
             }
         });

@@ -17,6 +17,7 @@
         android:layout_marginEnd="24dp"
         android:ems="10"
         android:hint="Email"
+        android:textColor="#003399"
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,6 +32,7 @@
         android:layout_marginEnd="24dp"
         android:ems="10"
         android:hint="Password"
+        android:textColor="#003399"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,7 +64,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Belum punya akun? " />
+            android:text="Belum punya akun? "
+            android:textColor="#003399"/>
 
         <TextView
             android:id="@+id/tv_daftar"
@@ -70,7 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Daftar!!"
-            android:textColor="#3F51B5" />
+            android:textColor="#ffcc00" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
