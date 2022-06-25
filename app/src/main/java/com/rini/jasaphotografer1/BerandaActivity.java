@@ -7,13 +7,58 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 public class BerandaActivity extends AppCompatActivity {
+
+    ImageView weeding,birthday,studio,hunting;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_beranda);
+
+        weeding=(ImageView) findViewById(R.id.iv_weeding);
+        weeding.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(),"Anda Menekan Tombol Weeding", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(BerandaActivity.this, WeedingActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        birthday=(ImageView) findViewById(R.id.iv_birthday);
+        birthday.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(),"Anda Menekan Tombol Birthday", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(BerandaActivity.this, BirthdayActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        studio=(ImageView) findViewById(R.id.iv_studio);
+        studio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(),"Anda Menekan Tombol Studio", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(BerandaActivity.this, StudioActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        hunting=(ImageView) findViewById(R.id.iv_hunting);
+        hunting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(),"Anda Menekan Tombol Hunting", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(BerandaActivity.this, HuntingActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override

@@ -3,13 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/HP/AndroidStudioProjects/JasaPhotografer1/app/src/main/res/layout/activity_beranda.xml" value="0.21" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/JasaPhotografer1/app/src/main/res/layout/activity_beranda.xml" value="0.22" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/JasaPhotografer1/app/src/main/res/layout/activity_history.xml" value="0.1" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/JasaPhotografer1/app/src/main/res/layout/activity_home.xml" value="0.1" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/JasaPhotografer1/app/src/main/res/layout/activity_login.xml" value="0.5" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/JasaPhotografer1/app/src/main/res/layout/activity_login.xml" value="0.18" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/JasaPhotografer1/app/src/main/res/layout/activity_logout.xml" value="0.1" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/JasaPhotografer1/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/JasaPhotografer1/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/JasaPhotografer1/app/src/main/res/layout/activity_weeding.xml" value="0.33" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/JasaPhotografer1/app/src/main/res/layout/bar_home.xml" value="0.22" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/JasaPhotografer1/app/src/main/res/layout/menu_atas.xml" value="0.1" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/JasaPhotografer1/app/src/main/res/menu/optionmenu.xml" value="0.2" />
