@@ -1,11 +1,16 @@
 package com.rini.jasaphotografer1;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.View;
 import android.view.Window;
+import android.widget.EditText;
 
 public class HistoryActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -13,4 +18,6 @@ public class HistoryActivity extends AppCompatActivity {
         setContentView(R.layout.activity_history);
 
     }
+
+
 }

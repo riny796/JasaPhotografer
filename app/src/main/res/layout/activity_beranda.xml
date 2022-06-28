@@ -20,6 +20,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="25dp"
             android:text="Dashboard"
+            android:textColor="#0000ff"
             android:textSize="30sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -31,6 +32,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="10dp"
             android:text="Selamat Datang Di Jasa Photografer"
+            android:textColor="#333333"
             android:textSize="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -56,7 +58,8 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:background="#ffffff">
 
                     <TextView
                         android:id="@+id/textView3"
@@ -66,6 +69,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
                         android:text="Paket Weeding Rp.500.000"
+                        android:textColor="#000000"
                         android:textSize="23sp" />
 
 
@@ -87,7 +91,8 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:background="#ffffff">
 
                     <TextView
                         android:id="@+id/textView4"
@@ -97,6 +102,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
                         android:text="Paket Birthday Rp.350.000"
+                        android:textColor="#000000"
                         android:textSize="23sp" />
 
                     <ImageView
@@ -129,7 +135,8 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:background="#ffffff">
 
                     <TextView
                         android:id="@+id/textView6"
@@ -139,6 +146,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
                         android:text="Foto Studio Rp.150.000"
+                        android:textColor="#000000"
                         android:textSize="23sp" />
 
                     <ImageView
@@ -159,7 +167,8 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:background="#ffff">
 
                     <TextView
                         android:id="@+id/textView7"
@@ -168,6 +177,7 @@
                         android:layout_below="@id/iv_hunting"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
+                        android:textColor="#000000"
                         android:text="Paket Hunting Rp.200.000"
                         android:textSize="23sp" />
 
