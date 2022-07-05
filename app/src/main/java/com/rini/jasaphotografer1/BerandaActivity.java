@@ -13,48 +13,48 @@ import android.widget.Toast;
 
 public class BerandaActivity extends AppCompatActivity {
 
-    ImageView weeding,birthday,studio,hunting;
+    ImageView weeding, birthday, studio, hunting;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_beranda);
 
-        weeding=(ImageView) findViewById(R.id.iv_weeding);
+        weeding = (ImageView) findViewById(R.id.iv_weeding);
         weeding.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"Anda Menekan Tombol Weeding", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Anda Menekan Tombol Weeding", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(BerandaActivity.this, OrderActivity.class);
                 startActivity(intent);
             }
         });
 
-        birthday=(ImageView) findViewById(R.id.iv_birthday);
+        birthday = (ImageView) findViewById(R.id.iv_birthday);
         birthday.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"Anda Menekan Tombol Birthday", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Anda Menekan Tombol Birthday", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(BerandaActivity.this, OrderActivity.class);
                 startActivity(intent);
             }
         });
 
-        studio=(ImageView) findViewById(R.id.iv_studio);
+        studio = (ImageView) findViewById(R.id.iv_studio);
         studio.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"Anda Menekan Tombol Studio", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Anda Menekan Tombol Studio", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(BerandaActivity.this, OrderActivity.class);
                 startActivity(intent);
             }
         });
 
-        hunting=(ImageView) findViewById(R.id.iv_hunting);
+        hunting = (ImageView) findViewById(R.id.iv_hunting);
         hunting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"Anda Menekan Tombol Hunting", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Anda Menekan Tombol Hunting", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(BerandaActivity.this, OrderActivity.class);
                 startActivity(intent);
             }
@@ -71,14 +71,16 @@ public class BerandaActivity extends AppCompatActivity {
 
     }
 
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId()==R.id.history){
-            startActivity(new Intent(this, HistoryActivity.class));
-        } else if (item.getItemId() == R.id.Logout) {
-            startActivity(new Intent(this, LogoutActivity.class));
+        switch (item.getItemId()) {
+            case R.id.Logout:
+                Toast.makeText(getApplicationContext(), "lOGOUT BERHASIL", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(this, LoginActivity.class));
+                break;
         }
-
         return true;
     }
 }
+
 

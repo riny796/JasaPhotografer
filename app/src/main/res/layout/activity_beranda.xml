@@ -69,8 +69,9 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
                         android:text="Paket Weeding Rp.500.000"
+                        android:textAlignment="center"
                         android:textColor="#000000"
-                        android:textSize="23sp" />
+                        android:textSize="25sp" />
 
 
                     <ImageView
@@ -102,8 +103,9 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
                         android:text="Paket Birthday Rp.350.000"
+                        android:textAlignment="center"
                         android:textColor="#000000"
-                        android:textSize="23sp" />
+                        android:textSize="26sp" />
 
                     <ImageView
                         android:id="@+id/iv_birthday"
@@ -146,8 +148,9 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
                         android:text="Foto Studio Rp.150.000"
+                        android:textAlignment="center"
                         android:textColor="#000000"
-                        android:textSize="23sp" />
+                        android:textSize="27sp" />
 
                     <ImageView
                         android:id="@+id/iv_studio"
@@ -177,9 +180,10 @@
                         android:layout_below="@id/iv_hunting"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
-                        android:textColor="#000000"
                         android:text="Paket Hunting Rp.200.000"
-                        android:textSize="23sp" />
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="27sp" />
 
                     <ImageView
                         android:id="@+id/iv_hunting"

@@ -10,16 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JasaPhotografer1">
         <activity
-            android:name=".PembayaranActivity"
-            android:exported="false" />
-        <activity
             android:name=".OrderActivity"
             android:exported="false" />
         <activity
             android:name=".LogoutActivity"
-            android:exported="false" />
-        <activity
-            android:name=".HistoryActivity"
             android:exported="false" />
         <activity
             android:name=".BerandaActivity"
