@@ -13,9 +13,6 @@
             android:name=".OrderActivity"
             android:exported="false" />
         <activity
-            android:name=".LogoutActivity"
-            android:exported="false" />
-        <activity
             android:name=".BerandaActivity"
             android:exported="false" />
         <activity

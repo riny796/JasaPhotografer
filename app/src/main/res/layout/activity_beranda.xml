@@ -150,7 +150,7 @@
                         android:text="Foto Studio Rp.150.000"
                         android:textAlignment="center"
                         android:textColor="#000000"
-                        android:textSize="27sp" />
+                        android:textSize="26sp" />
 
                     <ImageView
                         android:id="@+id/iv_studio"
@@ -183,7 +183,7 @@
                         android:text="Paket Hunting Rp.200.000"
                         android:textAlignment="center"
                         android:textColor="#000000"
-                        android:textSize="27sp" />
+                        android:textSize="26sp" />
 
                     <ImageView
                         android:id="@+id/iv_hunting"
@@ -195,5 +195,6 @@
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
         </LinearLayout>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

@@ -41,9 +41,7 @@ public class LoginActivity extends AppCompatActivity {
         user = FirebaseAuth.getInstance().getCurrentUser();
         if (user != null) {
             // User is signed in
-            Log.w("USER", user.getEmail());
             goToMainApp();
-
         } else {
             // No user is signed in
         }
@@ -71,8 +69,8 @@ public class LoginActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            Log.w("USER", user.getEmail());
                             goToMainApp();
+                            finish();
                         } else {
                             Toast.makeText(LoginActivity.this, "Login gagal", Toast.LENGTH_SHORT).show();
                         }

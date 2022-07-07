@@ -8,12 +8,17 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
 
 public class BerandaActivity extends AppCompatActivity {
 
     ImageView weeding, birthday, studio, hunting;
+    private FirebaseAuth firebaseAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,6 +64,7 @@ public class BerandaActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
     }
 
     @Override
@@ -74,12 +80,16 @@ public class BerandaActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
+
             case R.id.Logout:
+                firebaseAuth = FirebaseAuth.getInstance();
+                firebaseAuth.signOut();
                 Toast.makeText(getApplicationContext(), "lOGOUT BERHASIL", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(this, LoginActivity.class));
-                break;
+                startActivity(new Intent(BerandaActivity.this, LoginActivity.class));
+                finish();
+
         }
-        return true;
+        return super.onOptionsItemSelected(item);
     }
 }
 

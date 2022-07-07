@@ -6,6 +6,14 @@ public class Order {
     private String hari;
     private String alamat;
 
+
+    public Order(String nama, String nohp, String hari, String alamat) {
+        this.nama = nama;
+        this.nohp = nohp;
+        this.hari = hari;
+        this.alamat = alamat;
+    }
+
     public String getNama() {
         return nama;
     }
@@ -37,6 +45,9 @@ public class Order {
     public void setAlamat(String alamat) {
         this.alamat = alamat;
     }
+
 }
+
+
 
 
